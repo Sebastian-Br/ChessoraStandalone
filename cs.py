@@ -41,6 +41,10 @@ class HiddenWindowEngine(chess.engine.SimpleEngine):
 stockfish_path = "stockfish16.1/stockfish-windows-x86-64-avx2.exe"
 engine = HiddenWindowEngine.popen_uci(stockfish_path)
 
+def get_label(x):
+    # Define your get_label function here
+    pass
+
 exported_model_path = Path('m.pkl')
 learn = load_learner(exported_model_path)
 
