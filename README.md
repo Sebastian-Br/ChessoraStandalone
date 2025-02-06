@@ -1,3 +1,5 @@
+# The world's most performant AI vision tool for chess
+
 Chessora is able to visually identify digital chess pieces such as on Chess.com or Lichess and provide move suggestions and evaluations. </br>
 Several move suggestions are overlayed on the chessboard and color-coded according to the centipawn-difference to the best move. </br>
 The first startup will take a couple of seconds as the machine-learning model is loaded. </br>
