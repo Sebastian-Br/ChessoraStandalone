@@ -1,8 +1,9 @@
 # The world's most performant AI vision tool for chess
 
-Chessora is able to visually identify digital chess pieces such as on Chess.com or Lichess and provide move suggestions and evaluations. </br>
+Chessora is able to visually identify digital chess pieces such as on Chess.com or Lichess in only a few milliseconds and provide move suggestions and evaluations. </br>
 Several move suggestions are overlayed on the chessboard and color-coded according to the centipawn-difference to the best move. </br>
 The first startup will take a couple of seconds as the machine-learning model is loaded. </br>
+Further optimizations may reduce the time required to recognize all pieces on the board to <1ms. </br>
 Press SHIFT+W to play as White, and SHIFT+B to play as black. Ensure the color you're playing is at the bottom side of the board. </br>
 4 variations are displayed by default. In the below illustration, only three are shown because there are only that many legal moves. </br>
 
